@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>FCC - Url Shortener Microservice</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		
+	</head>
+
+	<body>
+		<div class="container">
+				<div class= 'row'>
+					<h1>Url Shortener Microservice</h1>
+				</div>
+				<div class='row'>
+					<h3>User Stories:</h3>
+					<blockquote>
+						<p class='text-left'>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</p>
+						<p class='text-left'>2)  If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</p>
+						<p class='text-left'>3)  When I visit that shortened URL, it will redirect me to my original link.</p> 
+
+					</blockquote>
+					<div class='col-sm-12'>
+						<h4>Example creation usage:</h4>
+						<p><code>https://rtapan-url-shortener.herokuapp.com/new/https://facebook.com</code></p>
+						
+						<h4>Example creation output:</h4>
+						<p><code>{"original-url":"https://www.facebook.com","short_url":"https://rtapan-url-shortener/29"}</code></p>
+
+						<br>
+
+						<h4>Usage:</h4>
+						<p><code>https://rtapan-url-shortener.herokuapp.com/29</code></p>
+						
+						<h4>Will Redirect to:</h4>
+						<p><code>https://www.facebook.com</code></p>
+
+						<br>
+
+					</div>
+
+				</div>
+		</div>
+		<div class='container'>
+			<div class='row'>
+				<div class='col-sm-3'>
+					<a href="http://www.freecodecamp.com/reginaldt" target="_blank" class="btn btn-block btn-info btn-lg" role = "button"><i class="fa fa-fire"></i> FreeCodeCamp</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href="https://github.com/reginaldt" target="_blank" class="btn btn-block btn-info btn-lg" role = "button"><i class="fa fa-github"></i> Github</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href="https://www.facebook.com/reginaldtapan" target="_blank" class="btn btn-block btn-info btn-lg shake" role = "button"><i class="fa fa-facebook-square"></i> Facebook</a>
+				</div>
+				<div class='col-sm-3'>
+					<a href="#" class="btn btn-block btn-info btn-lg shake" role = "button"><i class="fa fa-envelope"></i> reggie.mt@gmail.com</a>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+
+</html>
