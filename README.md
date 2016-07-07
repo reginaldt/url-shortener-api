@@ -41,6 +41,7 @@ MONGO_URI=mongodb://localhost:27017/clementinejs
 PORT=8080
 APP_URL=http://localhost:8080/
 ```
+note that the current value of mongo uri must be changed when you checkout.
 
 # Starting the App
 
